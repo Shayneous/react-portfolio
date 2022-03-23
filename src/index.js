@@ -4,6 +4,7 @@ import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
 import App from './App';
 import About from './components/About';
 import Contact from './components/Contact';
+import Projects from './components/Projects';
 
 ReactDOM.render(
 
@@ -12,6 +13,7 @@ ReactDOM.render(
       <Route path='/' element={<App/>}/>
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/about' element={<About/>}/>
+      <Route path='/projects' element={<Projects/>}/>
     </Routes>
   </Router>,
  

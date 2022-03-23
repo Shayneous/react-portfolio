@@ -2,7 +2,6 @@ import { MenuOutlined } from '@material-ui/icons'
 import React,{useState} from 'react'
 import { Link } from 'react-router-dom'
 import './styles/Header.css'
-import Contact from './Contact'
 import { Data } from './Data'
 
 
@@ -29,10 +28,13 @@ const Header = () => {
                         <Link to='/about'>About</Link>
                     </li>
                     <li>
-                        <Link to='#'>Projects</Link>
+                        <Link to='/projects'>Projects</Link>
                     </li>
                     <li>
                         <Link to='/contact'>Contact</Link>
+                    </li>
+                    <li>
+                        <Link to='#'>Resume</Link>
                     </li>
 
                     <div className="hamburger-menu">
