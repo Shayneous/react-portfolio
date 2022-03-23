@@ -5,7 +5,7 @@
     height: 100vh;
     background-color: rgb(206, 185, 185);
     border: 5px solid rgb(7, 7, 7);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 
 }
 .about-me {
@@ -44,7 +44,7 @@
         height: 100vh;
         background-color: rgb(206, 185, 185);
         border: 5px solid rgb(10, 10, 10);
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
     
     }
     .about-me {

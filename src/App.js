@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './components/Header';
-import Section from './components/Section';
 import About from './components/About';
+import Section from './components/Section';
 
 
 function App() {

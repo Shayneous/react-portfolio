@@ -1,10 +1,17 @@
 import React from 'react'
 import './styles/About.css'
 import game from './assets/game.gif'
+import { ArrowBack } from '@material-ui/icons'
+import { Link } from 'react-router-dom'
+
 
 const About = () => {
     return (
         <section className='about'>
+            <div className="arrow-home">
+            <Link to='/'><ArrowBack className='arrow'/></Link>
+            </div>
+            
             <h1 className='about-me'>About Me</h1>
             <div className="container-a">
                 <div className="image-cont">
