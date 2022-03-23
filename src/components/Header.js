@@ -1,5 +1,5 @@
 import { MenuOutlined } from '@material-ui/icons'
-import { React } from 'react';
+import { React } from 'react'
 import { Link } from 'react-router-dom'
 import './styles/Header.css'
 
