@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.header {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+
+ nav {
+    display: flex;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.logo h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: rgb(53, 30, 30);
+}
+
+.ul-items {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center; 
+    margin: 0 auto;
+}
+
+.ul-items li {
+    margin: 1rem;
+}
+.ul-items li a {
+    color: rgb(53, 30, 30);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.ul-items li a:hover {
+    border-bottom: 3px solid #000;
+}
+
+.hamburger-icon {
+    display: flex;
+}
+.hamburger-icon .menu {
+    font-size: 35px;
+    color: rgb(196, 151, 151);
+    cursor: pointer;
+}
