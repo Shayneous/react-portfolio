@@ -9,7 +9,7 @@ const Header = () => {
             <nav>
 
                 <div className="logo">
-                    <h1>Shayne Ganness</h1>
+                    <h1>Shayneous</h1>
                 </div>
 
                 <ul className='ul-items'>
