@@ -1,6 +1,6 @@
 import { React } from 'react'
 import './styles/Section.css'
-import headshot from './assets/gamelab.jpg'
+import headshot from './assets/gamelab.png'
 
 
 const Section = () => {
